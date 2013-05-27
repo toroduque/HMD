@@ -111,3 +111,26 @@ body {
       width: 189px
     }
 
+    .lead-title {
+      margin-bottom:20px;
+      font-size:35px;
+      font-weight:200;
+      line-height:30px;
+    }
+
+    .lead-mute {
+      margin-bottom:20px;
+      font-size:23px;
+      font-weight:200;
+      line-height:30px;
+      color:#afafaf;
+    }
+
+
+    .lead-hmd {
+      margin-bottom:20px;
+      font-size:23px;
+      font-weight:200;
+      line-height:30px;
+    }
+

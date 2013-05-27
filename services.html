@@ -29,7 +29,7 @@
         <!-- end of "smaller screen menu"  -->
         <div class="span8">
           <a href="index-hmd.html">
-            <img src="assets/img/logo-navbar.png" alt="Logo HMD - Juntos haciendo ciencia" style="margin-top: 10px; width: 30px; heigt: 30px;">
+           <img src="assets/img/logo-main.png" alt="Logo HMD - Juntos haciendo ciencia" style="margin-top: 5px; width:25%">
           </a>
         </div>
         <div class="nav-collapse collapse">
@@ -59,28 +59,16 @@
 
     <!-- ================== Main Content ============================= -->
 
-    <!-- Top content-->
-  <div class="container">  
-    <div class="span5">
-      <a href="index-hmd.html"><img src="assets/img/logo-main.png" style="width: 50%;"></a>
-    </div>
-    <div class="offset3 span2">
-      <a href="http://www.twitter.com/toro_duque" target="_blank"> <img id="hmd-twitter" src="assets/img/hmd-twitter1.png" style="margin-left:280px"></a>
-      <a href="http://www.linkedin.com" target="_blank"><img id="hmd-linkedin" src="assets/img/hmd-linkedin1.png" style="margin-left:280px"></a>
-    </div>  
-  </div>
-  <!-- Top content END -->
-
   <div class="container">
     <br>
-    <h2>Servicios</h2>
+    <h2 class="lead-title">Servicios</h2>
     <br>
 
     <h2 class="lead">Cada uno de los siguientes módulos se ofrecen de manera independiente o como paquetes configurados a elección de nuestros clientes:</h2>
 
-    <h4>Registros clínicos web (CRF):</h4>
+    <a href="#" onclick="return false"><h4 id="hmd-product1">Registros clínicos web (CRF):</h4></a>
 
-     <ul>
+     <ul id="hmd-services1" style="display:none;">
       <li>Intuitivos</li>
       <li>Cálculos automatizados</li>
       <li>Bloqueo de entrada de datos errados:</li>
@@ -88,18 +76,19 @@
       <li>Datos descargable en formato Excel.</li>
      </ul>
 
-    <h4>Análisis estadístico y gráficas en tiempo real.</h4>
+    <a href="#" onclick="return false"><h4 id="hmd-product2">Análisis estadístico y gráficas en tiempo real.</h4></a>
+    <img src="#" id="hmd-services2" style="display:none">
 
-    <h4>Soporte para desarrollo exitoso de investigaciones:</h4>
-    <ul>
+    <a href="#" onclick="return false"><h4 id="hmd-product3">Soporte para desarrollo exitoso de investigaciones:</h4></a>
+    <ul id="hmd-services3" style="display:none">
      <li>Monitores y coordinadores de investigación</li>
      <li>Digitadores de registros clínicos.</li>
      <li>Soporte en línea desde la plataforma web.</li>
      <li>Informes epidemiológicos parciales y definitivos.</li>
     </ul>
 
-    <h4> Servicio tipo CRO (Contract Research Organization)</h4>
-    <ul>
+    <a href="#" onclick="return false"><h4 id="hmd-product4"> Servicio tipo CRO (Contract Research Organization)</h4></a>
+    <ul id="hmd-services4" style="display:none">
       <li>Planeación para ensayo clínico controlado.</li>
       <li>Soporte documental</li>
       <li>Servicio de monitoreo de investigación</li>
@@ -111,46 +100,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <!-- Footer Menu -->
    <div class="container">
+    <br>
     <hr>
     <div class="row-fluid">
-     <div class="span3 offset3">
+     <div class="span3">
       <ul class="unstyled">
         <li><center><a href="#myModal" data-toggle="modal" data-target="#myModal">Pol&iacute;ticas de seguridad</a></center></li>
       </ul>
@@ -159,6 +114,10 @@
       <ul class="unstyled">
         <li><center><a href="#myModal" data-toggle="modal" data-target="#myModal">Aspectos legales</a></center></li>
       </ul>
+     </div>
+     <div class="offset2 span4">
+      <a href="http://www.twitter.com/toro_duque" target="_blank"> <img id="hmd-twitter" src="assets/img/hmd-twitter1.png" style="margin-left: 200px; width:8%"></a>
+      <a href="http://www.linkedin.com" target="_blank"><img id="hmd-linkedin" src="assets/img/hmd-linkedin1.png"></a>  
      </div>
      </div>
      <hr>
@@ -229,6 +188,31 @@
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="assets/js/bootstrap.js"></script>
 <script src="assets/js/hmd.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+  $("#hmd-product1").click(function(){
+    $("#hmd-services1").toggle();
+  });
+
+    $("#hmd-product2").click(function(){
+    $("#hmd-services2").toggle();
+  });
+
+    $("#hmd-product3").click(function(){
+    $("#hmd-services3").toggle();
+  });
+
+  $("#hmd-product4").click(function(){
+    $("#hmd-services4").toggle();
+  });
+
+
+
+});
+
+</script>
 
 
 </body>
