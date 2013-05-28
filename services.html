@@ -66,36 +66,71 @@
 
     <h2 class="lead">Cada uno de los siguientes módulos se ofrecen de manera independiente o como paquetes configurados a elección de nuestros clientes:</h2>
 
+    <!-- Serivicio 1 -->
     <a href="#" onclick="return false"><h4 id="hmd-product1">Registros clínicos web (CRF):</h4></a>
+    <div class="row-fluid" id="hmd-services1" style="display:none;">
+     <div class="span8">
+      <ul>
+       <li><p>Intuitivos</p></li>
+       <li><p>Cálculos automatizados</p></li>
+       <li><p>Bloqueo de entrada de datos errados:</p></li>
+       <p style="margin-left:30px;">fechas, rangos de laboratorio, selección múltiple...</p>
+       <li><p>Datos descargable en formato Excel.</p></li>
+      </ul>
+     </div>
+     <div class="span4"> 
+      <img src="assets/img/hmd-services-1.png">
+     </div>       
+    </div> 
 
-     <ul id="hmd-services1" style="display:none;">
-      <li>Intuitivos</li>
-      <li>Cálculos automatizados</li>
-      <li>Bloqueo de entrada de datos errados:</li>
-      <p style="margin-left:30px;">fechas, rangos de laboratorio, selección múltiple...</p>
-      <li>Datos descargable en formato Excel.</li>
-     </ul>
+    <!-- Serivicio 2 -->
+      <a href="#" onclick="return false"><h4 id="hmd-product2">Análisis estadístico y gráficas en tiempo real.</h4></a>
+    <div class="row-fluid" id="hmd-services2" style="display:none;">
+     <div class="span8">
+      <ul>
+       <li><p>Muy bonitas</p></li>
+       <li><p>De colores flourescentes</p></li>
+       <li><p>Super cheveres, ni te imaginas cuanto</p></li>
+       <p style="margin-left:30px;">fechas, rangos de laboratorio, selección múltiple...</p>
+       <li><p>Datos descargable en formato Excel.</p></li>
+      </ul>
+     </div>
+     <div class="span4"> 
+      <img src="assets/img/hmd-services-2.png">
+     </div> 
+    </div> 
 
-    <a href="#" onclick="return false"><h4 id="hmd-product2">Análisis estadístico y gráficas en tiempo real.</h4></a>
-    <img src="#" id="hmd-services2" style="display:none">
-
+    <!-- Serivicio 3 -->
     <a href="#" onclick="return false"><h4 id="hmd-product3">Soporte para desarrollo exitoso de investigaciones:</h4></a>
-    <ul id="hmd-services3" style="display:none">
-     <li>Monitores y coordinadores de investigación</li>
-     <li>Digitadores de registros clínicos.</li>
-     <li>Soporte en línea desde la plataforma web.</li>
-     <li>Informes epidemiológicos parciales y definitivos.</li>
-    </ul>
+    <div class="row-fluid" id="hmd-services3" style="display:none;">
+     <div class="span8"> 
+      <ul>
+       <li><p>Monitores y coordinadores de investigación</p></li>
+       <li><p>Digitadores de registros clínicos.</p></li>
+       <li><p>Soporte en línea desde la plataforma web.</p></li>
+       <li><p>Informes epidemiológicos parciales y definitivos.</p></li>
+      </ul>
+     </div> 
+     <div class="span4"> 
+      <img src="assets/img/hmd-services-3.png">
+     </div> 
+    </div> 
 
+    <!-- Serivicio 4 -->
     <a href="#" onclick="return false"><h4 id="hmd-product4"> Servicio tipo CRO (Contract Research Organization)</h4></a>
-    <ul id="hmd-services4" style="display:none">
-      <li>Planeación para ensayo clínico controlado.</li>
-      <li>Soporte documental</li>
-      <li>Servicio de monitoreo de investigación</li>
+     <div class="row-fluid" id="hmd-services4" style="display:none;">
+      <div class="span8">
+      <ul>
+       <li><p>Planeación para ensayo clínico controlado.</p></li>
+       <li><p>Soporte documental</p></li>
+       <li><p>Servicio de monitoreo de investigación</p></li>
+      </ul>
+     </div>  
+     <div class="span4"> 
+      <img src="assets/img/hmd-services-4.png">
+     </div> 
+    </div> 
   </div>
-
-
-
 
 
 
@@ -193,19 +228,19 @@
 $(document).ready(function(){
 
   $("#hmd-product1").click(function(){
-    $("#hmd-services1").toggle();
+    $("#hmd-services1").toggle(300,"swing");
   });
 
     $("#hmd-product2").click(function(){
-    $("#hmd-services2").toggle();
+    $("#hmd-services2").toggle(300, "swing");
   });
 
     $("#hmd-product3").click(function(){
-    $("#hmd-services3").toggle();
+    $("#hmd-services3").toggle(300,"swing");
   });
 
   $("#hmd-product4").click(function(){
-    $("#hmd-services4").toggle();
+    $("#hmd-services4").toggle(300,"swing");
   });
 
 
