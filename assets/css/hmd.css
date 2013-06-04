@@ -134,3 +134,20 @@ body {
       line-height:30px;
     }
 
+    a:link {
+      color: #4c4c4c; 
+    }
+
+    a:active {
+      color: #4c4c4c; 
+    }
+
+    a:visited {
+      color: #4c4c4c; 
+    }
+
+    a:hover {
+      color: #2595BA; 
+      text-decoration: none; 
+    }
+
