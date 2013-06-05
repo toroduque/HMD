@@ -67,19 +67,19 @@
     <h2 class="lead">Cada uno de los siguientes módulos se ofrecen de manera independiente o como paquetes configurados a elección de nuestros clientes:</h2>
 
     <!-- Serivicio 1 -->
-    <div style="margin-top: 50px;">
+    <div style="margin-top: 35px;">
      <div class="span2"> 
-       <img src="assets/img/hmd-services-1.png" style="width: 50%; margin-left: 20px;">
+       <img src="assets/img/hmd-services-1.png" style="width: 70%; margin-left: 20px;">
      </div>
      <a href="#" onclick="return false"><h4 id="hmd-product1">Registros clínicos web (CRF):</h4></a>
      <div class="row-fluid" id="">
       <div class="span6">
-        <p style="margin-left: 5px; margin-top:8px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus condimentum scelerisque. Vestibulum tempus placerat est in commodo. </p>
+        <p style="margin-left: 5px; margin-top:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus condimentum scelerisque. Vestibulum tempus placerat est in commodo. </p>
       </div>
      </div>
      <div class="row-fluid" id="hmd-services1" style="display:none;">
      <div class="span8 offset2">
-       <ul style="margin-left:40px; margin-bottom:40px;">
+       <ul style="margin-left:40px; margin-bottom:20px;">
         <li><p>Intuitivos</p></li>
         <li><p>Cálculos automatizados</p></li>
         <li><p>Bloqueo de entrada de datos errados:</p></li>
@@ -91,10 +91,11 @@
      </div>  
 
     <!-- Serivicio 2 -->
-    <div>
+      <div style="margin-top: 35px;">
         <div class="span2"> 
-          <img src="assets/img/hmd-services-2.png" style="margin-left:20px;">
+          <img src="assets/img/hmd-services-2.png" style="width: 70%; margin-left:20px;">
         </div>
+      </div>  
       <a href="#" onclick="return false"><h4 id="hmd-product2">Análisis estadístico y gráficas en tiempo real.</h4></a>
       <div class="row-fluid" id="">
         <div class="span6">
@@ -112,9 +113,13 @@
       </ul>
      </div> 
     </div>
-  </div>
 
     <!-- Serivicio 3 -->
+    <div style="margin-top: 35px;">
+      <div class="span2"> 
+        <img src="assets/img/hmd-services-3.png" style="width: 70%; margin-left:20px;">
+      </div>
+    </div>  
     <a href="#" onclick="return false"><h4 id="hmd-product3">Soporte para desarrollo exitoso de investigaciones:</h4></a>
       <div class="row-fluid" id="">
         <div class="span6">
@@ -122,20 +127,22 @@
         </div>
       </div>
     <div class="row-fluid" id="hmd-services3" style="display:none;">
-     <div class="span8"> 
-      <ul style="margin-top:10px;">
+     <div class="span8 offset2"> 
+      <ul style="margin-left:40px; margin-bottom:40px;">
        <li><p>Monitores y coordinadores de investigación</p></li>
        <li><p>Digitadores de registros clínicos.</p></li>
        <li><p>Soporte en línea desde la plataforma web.</p></li>
        <li><p>Informes epidemiológicos parciales y definitivos.</p></li>
       </ul>
      </div> 
-     <div class="span4"> 
-      <img src="assets/img/hmd-services-3.png">
-     </div> 
     </div> 
 
     <!-- Serivicio 4 -->
+    <div style="margin-top: 35px;">
+      <div class="span2"> 
+        <img src="assets/img/hmd-services-4.png" style="width: 70%; margin-left:20px;">
+      </div>
+    </div>  
     <a href="#" onclick="return false"><h4 id="hmd-product4"> Servicio tipo CRO (Contract Research Organization)</h4></a>
       <div class="row-fluid" id="">
         <div class="span6">
@@ -143,20 +150,39 @@
         </div>
       </div>
      <div class="row-fluid" id="hmd-services4" style="display:none;">
-      <div class="span8">
-      <ul style="margin-top:10px;">
+      <div class="span8 offset2">
+      <ul style="margin-left:40px; margin-bottom:40px;">
        <li><p>Planeación para ensayo clínico controlado.</p></li>
        <li><p>Soporte documental</p></li>
        <li><p>Servicio de monitoreo de investigación</p></li>
       </ul>
-     </div>  
-     <div class="span4"> 
-      <img src="assets/img/hmd-services-4.png">
-     </div> 
+     </div>   
+    </div> 
+
+      <!-- Serivicio 5 -->
+    <div style="margin-top: 35px;">
+      <div class="span2"> 
+        <img src="assets/img/hmd-services-5.png" style="width: 80%; margin-left:20px;">
+      </div>
+    </div>  
+    <a href="#" onclick="return false"><h4 id="hmd-product5"> Gesti&oacute;n documental y de muestras m&eacute;dicas mediante c&oacute;digo de barras</h4></a>
+      <div class="row-fluid" id="">
+        <div class="span6">
+          <p style="margin-left: 5px; margin-top:8px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin cursus condimentum scelerisque. Vestibulum tempus placerat est in commodo. </p>
+        </div>
+      </div>
+     <div class="row-fluid" id="hmd-services5" style="display:none;">
+      <div class="span8 offset2">
+      <ul style="margin-left:40px; margin-bottom:40px;">
+       <li><p>Planeación para ensayo clínico controlado.</p></li>
+       <li><p>Soporte documental</p></li>
+       <li><p>Servicio de monitoreo de investigación</p></li>
+      </ul>
+     </div>   
     </div> 
   </div>
 
-
+  <!-- END SERVICES-->
 
 
   <!-- Footer Menu -->
@@ -265,6 +291,10 @@ $(document).ready(function(){
 
   $("#hmd-product4").click(function(){
     $("#hmd-services4").toggle(300,"swing");
+  });
+
+    $("#hmd-product5").click(function(){
+    $("#hmd-services5").toggle(300,"swing");
   });
 
 
