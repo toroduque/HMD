@@ -69,7 +69,7 @@
     <!-- Serivicio 1 -->
     <div style="margin-top: 35px;">
      <div class="span2"> 
-       <img src="assets/img/hmd-services-1.png" style="width: 70%; margin-left: 20px;">
+       <img id="hmd-services1-blue" src="assets/img/hmd-services-1.png" style="width: 70%; margin-left: 20px;">
      </div>
      <a href="#" onclick="return false"><h4 id="hmd-product1">Registros clínicos web (CRF):</h4></a>
      <div class="row-fluid" id="">
@@ -93,7 +93,7 @@
     <!-- Serivicio 2 -->
       <div style="margin-top: 35px;">
         <div class="span2"> 
-          <img src="assets/img/hmd-services-2.png" style="width: 70%; margin-left:20px;">
+          <img id="hmd-services2-blue" src="assets/img/hmd-services-2.png" style="width: 70%; margin-left:20px;">
         </div>
       </div>  
       <a href="#" onclick="return false"><h4 id="hmd-product2">Análisis estadístico y gráficas en tiempo real.</h4></a>
@@ -117,7 +117,7 @@
     <!-- Serivicio 3 -->
     <div style="margin-top: 35px;">
       <div class="span2"> 
-        <img src="assets/img/hmd-services-3.png" style="width: 70%; margin-left:20px;">
+        <img id="hmd-services3-blue" src="assets/img/hmd-services-3.png" style="width: 70%; margin-left:20px;">
       </div>
     </div>  
     <a href="#" onclick="return false"><h4 id="hmd-product3">Soporte para desarrollo exitoso de investigaciones:</h4></a>
@@ -140,7 +140,7 @@
     <!-- Serivicio 4 -->
     <div style="margin-top: 35px;">
       <div class="span2"> 
-        <img src="assets/img/hmd-services-4.png" style="width: 70%; margin-left:20px;">
+        <img id="hmd-services4-blue" src="assets/img/hmd-services-4.png" style="width: 70%; margin-left:20px;">
       </div>
     </div>  
     <a href="#" onclick="return false"><h4 id="hmd-product4"> Servicio tipo CRO (Contract Research Organization)</h4></a>
@@ -162,7 +162,7 @@
       <!-- Serivicio 5 -->
     <div style="margin-top: 35px;">
       <div class="span2"> 
-        <img src="assets/img/hmd-services-5.png" style="width: 80%; margin-left:20px;">
+        <img id="hmd-services5-blue" src="assets/img/hmd-services-5.png" style="width: 80%; margin-left:20px;">
       </div>
     </div>  
     <a href="#" onclick="return false"><h4 id="hmd-product5"> Gesti&oacute;n documental y de muestras m&eacute;dicas mediante c&oacute;digo de barras</h4></a>
@@ -279,22 +279,43 @@ $(document).ready(function(){
 
   $("#hmd-product1").click(function(){
     $("#hmd-services1").toggle(300,"swing");
+    if ($("#hmd-services1-blue").attr("src")== "assets/img/hmd-services1-blue.png") {
+        $("#hmd-services1-blue").attr("src","assets/img/hmd-services-1.png");
+    }
+    else $("#hmd-services1-blue").attr("src","assets/img/hmd-services1-blue.png");
   });
+
 
     $("#hmd-product2").click(function(){
     $("#hmd-services2").toggle(300, "swing");
+    if ($("#hmd-services2-blue").attr("src")== "assets/img/hmd-services2-blue.png") {
+        $("#hmd-services2-blue").attr("src","assets/img/hmd-services-2.png");
+    }
+    else $("#hmd-services2-blue").attr("src","assets/img/hmd-services2-blue.png");
   });
 
     $("#hmd-product3").click(function(){
     $("#hmd-services3").toggle(300,"swing");
+    if ($("#hmd-services3-blue").attr("src")== "assets/img/hmd-services3-blue.png") {
+        $("#hmd-services3-blue").attr("src","assets/img/hmd-services-3.png");
+    }
+    else $("#hmd-services3-blue").attr("src","assets/img/hmd-services3-blue.png");
   });
 
   $("#hmd-product4").click(function(){
     $("#hmd-services4").toggle(300,"swing");
+    if ($("#hmd-services4-blue").attr("src")== "assets/img/hmd-services4-blue.png") {
+        $("#hmd-services4-blue").attr("src","assets/img/hmd-services-4.png");
+    }
+    else $("#hmd-services4-blue").attr("src","assets/img/hmd-services4-blue.png");
   });
 
     $("#hmd-product5").click(function(){
     $("#hmd-services5").toggle(300,"swing");
+    if ($("#hmd-services5-blue").attr("src")== "assets/img/hmd-services5-blue.png") {
+        $("#hmd-services5-blue").attr("src","assets/img/hmd-services-5.png");
+    }
+    else $("#hmd-services5-blue").attr("src","assets/img/hmd-services5-blue.png");
   });
 
 
