@@ -134,16 +134,23 @@ body {
       line-height:30px;
     }
 
+      .lead-small {
+      margin-bottom:20px;
+      font-size:18px;
+      font-weight:200;
+      line-height:30px;
+    }
+
     a:link {
-      color: #4c4c4c; 
+      color: #4e4e4e; 
     }
 
     a:active {
-      color: #4c4c4c; 
+      color: #4e4e4e; 
     }
 
     a:visited {
-      color: #4c4c4c; 
+      color: #4e4e4e; 
     }
 
     a:hover {
