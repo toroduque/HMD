@@ -111,6 +111,12 @@ body {
       width: 189px
     }
 
+    p {
+      margin:0 0 10px;
+      font-size:14px;
+      font-family: 'Raleway', sans-serif;
+    }
+
     .lead-title {
       margin-bottom:20px;
       font-size:35px;
@@ -136,7 +142,7 @@ body {
 
       .lead-small {
       margin-bottom:20px;
-      font-size:18px;
+      font-size:14px;
       font-weight:200;
       line-height:30px;
     }
@@ -157,4 +163,5 @@ body {
       color: #2595BA; 
       text-decoration: none; 
     }
+
 
