@@ -142,6 +142,8 @@ $(document).ready(function(){
     else $("#hmd-services5-blue").attr("src","assets/img/hmd-services5-blue.png");
   });
 
+ 
+
 
 
 });
