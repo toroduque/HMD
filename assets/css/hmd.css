@@ -154,6 +154,13 @@ body {
       line-height:30px;
     }
 
+    .lead-navbar {
+      margin-top:2px;
+      margin-bottom: auto 0px;
+      font-size:15px;
+      font-weight:200;
+    }
+
 
     a:link {
       color: #4e4e4e; 
