@@ -102,44 +102,72 @@ $(function() {
 $(document).ready(function(){
 
   $("#hmd-product1").click(function(){
-    $("#hmd-services1").toggle(300,"swing");
-    if ($("#hmd-services1-blue").attr("src")== "assets/img/hmd-services1-blue.png") {
-        $("#hmd-services1-blue").attr("src","assets/img/hmd-services-1.png");
-    }
-    else $("#hmd-services1-blue").attr("src","assets/img/hmd-services1-blue.png");
+    $("#hmd-services1").show(300,"swing");
+    $("#hmd-services2").hide(300,"swing");
+    $("#hmd-services3").hide(300,"swing");
+    $("#hmd-services4").hide(300,"swing");
+    $("#hmd-services5").hide(300,"swing");
+    $("#hmd-services1-blue").attr("src","assets/img/hmd-services1-blue.png");
+    $("#hmd-services2-blue").attr("src","assets/img/hmd-services-2.png");
+    $("#hmd-services3-blue").attr("src","assets/img/hmd-services-3.png");
+    $("#hmd-services4-blue").attr("src","assets/img/hmd-services-4.png");
+    $("#hmd-services5-blue").attr("src","assets/img/hmd-services-5.png");
+
+
   });
 
 
     $("#hmd-product2").click(function(){
-    $("#hmd-services2").toggle(300, "swing");
-    if ($("#hmd-services2-blue").attr("src")== "assets/img/hmd-services2-blue.png") {
-        $("#hmd-services2-blue").attr("src","assets/img/hmd-services-2.png");
-    }
-    else $("#hmd-services2-blue").attr("src","assets/img/hmd-services2-blue.png");
+    $("#hmd-services2").show(300, "swing");
+    $("#hmd-services3").hide(200,"swing");
+    $("#hmd-services4").hide(200,"swing");
+    $("#hmd-services5").hide(200,"swing");
+    $("#hmd-services1").hide(200,"swing");
+    $("#hmd-services1-blue").attr("src","assets/img/hmd-services-1.png");
+    $("#hmd-services2-blue").attr("src","assets/img/hmd-services2-blue.png");
+    $("#hmd-services3-blue").attr("src","assets/img/hmd-services-3.png");
+    $("#hmd-services4-blue").attr("src","assets/img/hmd-services-4.png");
+    $("#hmd-services5-blue").attr("src","assets/img/hmd-services-5.png");
   });
 
     $("#hmd-product3").click(function(){
-    $("#hmd-services3").toggle(300,"swing");
-    if ($("#hmd-services3-blue").attr("src")== "assets/img/hmd-services3-blue.png") {
-        $("#hmd-services3-blue").attr("src","assets/img/hmd-services-3.png");
-    }
-    else $("#hmd-services3-blue").attr("src","assets/img/hmd-services3-blue.png");
+    $("#hmd-services3").show(300,"swing");
+    $("#hmd-services4").hide(200,"swing");
+    $("#hmd-services5").hide(200,"swing");
+    $("#hmd-services1").hide(200,"swing");
+    $("#hmd-services2").hide(200,"swing");
+    $("#hmd-services1-blue").attr("src","assets/img/hmd-services-1.png");
+    $("#hmd-services2-blue").attr("src","assets/img/hmd-services-2.png");
+    $("#hmd-services3-blue").attr("src","assets/img/hmd-services3-blue.png");
+    $("#hmd-services4-blue").attr("src","assets/img/hmd-services-4.png");
+    $("#hmd-services5-blue").attr("src","assets/img/hmd-services-5.png");
   });
 
   $("#hmd-product4").click(function(){
-    $("#hmd-services4").toggle(300,"swing");
-    if ($("#hmd-services4-blue").attr("src")== "assets/img/hmd-services4-blue.png") {
-        $("#hmd-services4-blue").attr("src","assets/img/hmd-services-4.png");
-    }
-    else $("#hmd-services4-blue").attr("src","assets/img/hmd-services4-blue.png");
+    $("#hmd-services4").show(300,"swing");
+    $("#hmd-services5").hide(200,"swing");
+    $("#hmd-services1").hide(200,"swing");
+    $("#hmd-services2").hide(200,"swing");
+    $("#hmd-services3").hide(200,"swing");
+    $("#hmd-services1-blue").attr("src","assets/img/hmd-services-1.png");
+    $("#hmd-services2-blue").attr("src","assets/img/hmd-services-2.png");
+    $("#hmd-services3-blue").attr("src","assets/img/hmd-services-3.png");
+    $("#hmd-services4-blue").attr("src","assets/img/hmd-services4-blue.png");
+    $("#hmd-services5-blue").attr("src","assets/img/hmd-services-5.png");
   });
 
     $("#hmd-product5").click(function(){
-    $("#hmd-services5").toggle(300,"swing");
-    if ($("#hmd-services5-blue").attr("src")== "assets/img/hmd-services5-blue.png") {
-        $("#hmd-services5-blue").attr("src","assets/img/hmd-services-5.png");
-    }
-    else $("#hmd-services5-blue").attr("src","assets/img/hmd-services5-blue.png");
+    $("#hmd-services5").show(300,"swing");
+    $("#hmd-services1").hide(200,"swing");
+    $("#hmd-services2").hide(200,"swing");
+    $("#hmd-services3").hide(200,"swing");
+    $("#hmd-services4").hide(200,"swing");
+    $("#hmd-services1-blue").attr("src","assets/img/hmd-services-1.png");
+    $("#hmd-services2-blue").attr("src","assets/img/hmd-services-2.png");
+    $("#hmd-services3-blue").attr("src","assets/img/hmd-services-3.png");
+    $("#hmd-services4-blue").attr("src","assets/img/hmd-services-4.png");
+    $("#hmd-services5-blue").attr("src","assets/img/hmd-services5-blue.png");
+
   });
 
  
