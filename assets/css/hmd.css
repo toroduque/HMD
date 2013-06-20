@@ -161,6 +161,14 @@ body {
       font-weight:200;
     }
 
+     .lead-search {
+      margin-top: 50px;
+      font-size:50px;
+      font-weight:300;
+      text-shadow: -1px -1px #d9d9d9;
+      color: #3a87ad;
+    }
+
 
     a:link {
       color: #4e4e4e; 
