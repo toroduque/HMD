@@ -170,6 +170,51 @@ body {
       color: #3a87ad;
     }
 
+    .lead-services{
+      margin: 20px;
+      font-size: 14px;
+
+    }
+
+
+
+    .container-services{
+      border-style: solid;
+      border-width: 1px;
+      border-color: #dfdfdf;
+    }
+
+    .btn-service{
+      width: auto;
+      height: 60px;
+      border-style: solid;
+      border-color: #dfdfdf;
+      border-width: 1px;
+      text-align: left;
+    }
+
+    .lead-services-active{
+      margin: 20px;
+      font-size: 15px;
+      font-style: bold;
+
+    }
+
+    .btn-service-active{
+      width: auto;
+      height: 60px;
+      border-style: solid;
+      border-color: #dfdfdf;
+      border-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-width: 5px;
+      border-bottom-color: #aac6e2;
+      text-align: left;
+   
+
+
+    }
+
 
     a:link {
       color: #4e4e4e; 
