@@ -122,6 +122,7 @@ body {
       font-size:35px;
       font-weight:200;
       line-height:30px;
+      color: #a1a1a1;
     }
 
     .lead-mute {
@@ -170,39 +171,50 @@ body {
       color: #3a87ad;
     }
 
-    .lead-services{
-      margin: 20px;
-      font-size: 14px;
-
-    }
-
 
 
     .container-services{
       border-style: solid;
-      border-width: 1px;
+      border-width: 0px;
       border-color: #dfdfdf;
     }
 
-    .btn-service{
+   
+    .lead-services{
+      margin: 15px;
+      font-size: 14px;
+      text-align: center;
+
+    }
+
+
+    .lead-services-active{
+      margin: 15px;
+      font-size: 15px;
+      font-style: bold;
+      text-align: center;
+    }
+
+   .btn-service{
       width: auto;
-      height: 60px;
+      height: 70px;
+      width: 185px;
+      float: left;
       border-style: solid;
       border-color: #dfdfdf;
       border-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-width: 5px;
+      border-bottom-color: #e4e4e4;
       text-align: left;
     }
 
-    .lead-services-active{
-      margin: 20px;
-      font-size: 15px;
-      font-style: bold;
-
-    }
 
     .btn-service-active{
       width: auto;
-      height: 60px;
+      height: 70px;
+      width: 185px;
+      float: left;
       border-style: solid;
       border-color: #dfdfdf;
       border-width: 1px;
@@ -210,6 +222,7 @@ body {
       border-bottom-width: 5px;
       border-bottom-color: #aac6e2;
       text-align: left;
+    
    
 
 
