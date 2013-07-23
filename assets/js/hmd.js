@@ -94,78 +94,102 @@ $(function() {
 });
 
 /*
-*name: Animation on services.html
-*action: Chango color of icons and display the info of each service
+*name: Animations on services.html
 *
 */
+
+function change_content(service_show){
+  for( var i = 1; i <= 5; i=i+1 ){
+    $("#hmd-services" + i).hide(300,"swing");
+  }
+  $("#hmd-services" + service_show).show(300,"swing");
+}
+
+function nav_animation(id_title){
+  for (var i = 1;  i <= 5; i=i+1 ) {
+    $("#hmd-title-" + i).removeClass('btn-service-active').addClass('btn-service');
+  }
+  $("#hmd-title-" + id_title).removeClass('btn-service').addClass('btn-service-active');
+} 
+
+/*-----------------------------------*/
 
 $(document).ready(function(){
 
   $("#hmd-product1").click(function(){
-    $("#hmd-services1").show(300,"swing");
-    $("#hmd-services2").hide(300,"swing");
-    $("#hmd-services3").hide(300,"swing");
-    $("#hmd-services4").hide(300,"swing");
-    $("#hmd-services5").hide(300,"swing");
-    $("#hmd-title-1").removeClass('btn-service').addClass('btn-service-active');
-    $("#hmd-title-2").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-3").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-4").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-5").removeClass('btn-service-active').addClass('btn-service');
+    /* Change content */
+    change_content(1);
+
+    /* Navbar animation */
+    nav_animation(1);
+
+    /* Navbar change fonts */
+    $("#service-title-1").removeClass('lead-services').addClass('lead-services-active');
+    $("#service-title-2").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-3").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-4").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-5").removeClass('lead-services-active').addClass('lead-services');
 
   });
 
 
     $("#hmd-product2").click(function(){
-    $("#hmd-services2").show(300, "swing");
-    $("#hmd-services3").hide(300,"swing");
-    $("#hmd-services4").hide(300,"swing");
-    $("#hmd-services5").hide(300,"swing");
-    $("#hmd-services1").hide(300,"swing");
-    $("#hmd-title-1").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-2").removeClass('btn-service').addClass('btn-service-active');
-    $("#hmd-title-3").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-4").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-5").removeClass('btn-service-active').addClass('btn-service');
+      /* Change content */
+      change_content(2);
+
+    /* Navbar animation */
+      nav_animation(2);
+    
+     /* Navbar change fonts */
+    $("#service-title-1").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-2").removeClass('lead-services').addClass('lead-services-active');
+    $("#service-title-3").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-4").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-5").removeClass('lead-services-active').addClass('lead-services');
+
   });
 
     $("#hmd-product3").click(function(){
-    $("#hmd-services3").show(300,"swing");
-    $("#hmd-services4").hide(300,"swing");
-    $("#hmd-services5").hide(300,"swing");
-    $("#hmd-services1").hide(300,"swing");
-    $("#hmd-services2").hide(300,"swing");
-    $("#hmd-title-1").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-2").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-3").removeClass('btn-service').addClass('btn-service-active');
-    $("#hmd-title-4").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-5").removeClass('btn-service-active').addClass('btn-service');
+      /* Change content */
+      change_content(3);
+
+    /* Navbar animation */
+      nav_animation(3);
+     /* Navbar change fonts */
+    $("#service-title-1").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-2").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-3").removeClass('lead-services').addClass('lead-services-active');
+    $("#service-title-4").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-5").removeClass('lead-services-active').addClass('lead-services');
   });
 
   $("#hmd-product4").click(function(){
-    $("#hmd-services4").show(300,"swing");
-    $("#hmd-services5").hide(300,"swing");
-    $("#hmd-services1").hide(300,"swing");
-    $("#hmd-services2").hide(300,"swing");
-    $("#hmd-services3").hide(300,"swing");
-    $("#hmd-title-1").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-2").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-3").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-4").removeClass('btn-service').addClass('btn-service-active');
-    $("#hmd-title-5").removeClass('btn-service-active').addClass('btn-service');
+    /* Change content */
+    change_content(4);
+
+    /* Navbar animation */
+      nav_animation(4);
+     /* Navbar change fonts */
+    $("#service-title-1").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-2").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-3").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-4").removeClass('lead-services').addClass('lead-services-active');
+    $("#service-title-5").removeClass('lead-services-active').addClass('lead-services');
   });
 
     $("#hmd-product5").click(function(){
-    $("#hmd-services5").show(300,"swing");
-    $("#hmd-services1").hide(300,"swing");
-    $("#hmd-services2").hide(300,"swing");
-    $("#hmd-services3").hide(300,"swing");
-    $("#hmd-services4").hide(300,"swing");
-    $("#hmd-title-1").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-2").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-3").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-4").removeClass('btn-service-active').addClass('btn-service');
-    $("#hmd-title-5").removeClass('btn-service').addClass('btn-service-active');
+      /* Change content */
+      change_content(5);
+ 
+    /* Navbar animation */
+      nav_animation(5);
+      
+     /* Navbar change fonts */
+    $("#service-title-1").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-2").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-3").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-4").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-5").removeClass('lead-services').addClass('lead-services-active');
   });
 
  

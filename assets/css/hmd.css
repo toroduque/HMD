@@ -182,17 +182,22 @@ body {
    
     .lead-services{
       margin: 15px;
-      font-size: 14px;
+      font-size: 17px;
       text-align: center;
+      color: #a0a0a0;
+      font-family: 'Quattrocento Sans', sans-serif;
 
     }
 
 
     .lead-services-active{
       margin: 15px;
-      font-size: 15px;
+      font-size: 18px;
       font-style: bold;
       text-align: center;
+      text-shadow: 1px 1px #f3f3f3;
+      font-family: 'Quattrocento Sans', sans-serif;
+
     }
 
    .btn-service{
@@ -205,8 +210,16 @@ body {
       border-width: 1px;
       border-bottom-style: solid;
       border-bottom-width: 5px;
-      border-bottom-color: #e4e4e4;
+      border-bottom-color: #d2d2d2;
       text-align: left;
+      background-color: #4D4D4D;
+                 background-image: -moz-linear-gradient(top, #f9f9f9, #f4f4f4);
+                 background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f9f9f9), to(#f4f4f4));
+                 background-image: -webkit-linear-gradient(top, #f9f9f9, #f4f4f4);
+                 background-image: -o-linear-gradient(top, #f9f9f9, #f4f4f4);
+                 background-image: linear-gradient(to bottom, #f9f9f9, #f4f4f4);
+                 background-repeat: repeat-x;
+                 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#f4f4f4', GradientType=0);
     }
 
 
@@ -220,13 +233,21 @@ body {
       border-width: 1px;
       border-bottom-style: solid;
       border-bottom-width: 5px;
-      border-bottom-color: #aac6e2;
+      border-bottom-color:#AFC4CC;
       text-align: left;
-    
-   
+      background-color: #4D4D4D;
+                 background-image: -moz-linear-gradient(top, #ffffff, #f6f6f6);
+                 background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f6f6f6));
+                 background-image: -webkit-linear-gradient(top, #ffffff, #f6f6f6);
+                 background-image: -o-linear-gradient(top, #ffffff, #f6f6f6);
+                 background-image: linear-gradient(to bottom, #ffffff, #f6f6f6);
+                 background-repeat: repeat-x;
+                 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
+      box-shadow: 0px 5px 10px #c2c2c2;
 
 
     }
+
 
 
     a:link {
