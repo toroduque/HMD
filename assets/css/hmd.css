@@ -181,22 +181,25 @@ body {
 
    
     .lead-services{
-      margin: 15px;
-      font-size: 17px;
+      margin: 18px;
+      font-size: 15px;
       text-align: center;
       color: #a0a0a0;
-      font-family: 'Quattrocento Sans', sans-serif;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
 
     }
 
 
     .lead-services-active{
-      margin: 15px;
-      font-size: 18px;
+      margin: 18px;
+      font-size: 15px;
       font-style: bold;
       text-align: center;
       text-shadow: 1px 1px #f3f3f3;
-      font-family: 'Quattrocento Sans', sans-serif;
+      font-family: 'Helvetica Nueu', sans-serif;
+      font-weight: 200;
+      color: #606060;
 
     }
 
@@ -236,16 +239,22 @@ body {
       border-bottom-color:#AFC4CC;
       text-align: left;
       background-color: #4D4D4D;
-                 background-image: -moz-linear-gradient(top, #ffffff, #f6f6f6);
-                 background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f6f6f6));
-                 background-image: -webkit-linear-gradient(top, #ffffff, #f6f6f6);
-                 background-image: -o-linear-gradient(top, #ffffff, #f6f6f6);
-                 background-image: linear-gradient(to bottom, #ffffff, #f6f6f6);
+                 background-image: -moz-linear-gradient(top, #fdfdfd, #f5f5f5);
+                 background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fdfdfd), to(#f5f5f5));
+                 background-image: -webkit-linear-gradient(top, #fdfdfd, #f5f5f5);
+                 background-image: -o-linear-gradient(top, #fdfdfd, #f5f5f5);
+                 background-image: linear-gradient(to bottom, #fdfdfd, #f5f5f5);
                  background-repeat: repeat-x;
-                 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
+                 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#f5f5f5', GradientType=0);
       box-shadow: 0px 5px 10px #c2c2c2;
 
 
+    }
+
+    .service-box{ 
+      margin-top:20px;
+      margin-left:125px;
+      box-shadow: 5px 5px 10px #e4e4e4;
     }
 
 
