@@ -118,9 +118,10 @@ body {
     }
 
     .lead-title {
+      font-family: 'Helvetica Neue', sans-serif;
       margin-bottom:20px;
-      font-size:35px;
-      font-weight:200;
+      font-size:33px;
+      font-weight:100;
       line-height:30px;
       color: #a1a1a1;
     }
@@ -136,9 +137,9 @@ body {
 
     .lead-hmd {
       margin-bottom:20px;
-      font-size:23px;
+      font-size:30px;
       font-weight:200;
-      line-height:30px;
+      line-height:20px;
     }
 
     .lead-small {
