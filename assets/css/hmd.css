@@ -1,3 +1,4 @@
+
 body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
@@ -114,13 +115,20 @@ body {
     p {
       margin:0 0 10px;
       font-size:16px;
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Pontano Sans', sans-serif;
+      line-height: 23px;
+      font-weight: normal;
+    }
+
+    li+p{
+      line-height: 16px;
+      margin: none;
     }
 
     .lead-title {
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      margin-bottom:20px;
-      font-size:33px;
+      margin-bottom:25px;
+      font-size:30px;
       font-weight:100;
       line-height:30px;
       color: #a1a1a1;
@@ -260,7 +268,6 @@ body {
       margin-left:125px;
       box-shadow: 5px 5px 10px #e4e4e4;
     }
-
 
 
     a:link {
