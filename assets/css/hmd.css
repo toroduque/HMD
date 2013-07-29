@@ -113,12 +113,12 @@ body {
 
     p {
       margin:0 0 10px;
-      font-size:14px;
+      font-size:16px;
       font-family: 'Raleway', sans-serif;
     }
 
     .lead-title {
-      font-family: 'Helvetica Neue', sans-serif;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       margin-bottom:20px;
       font-size:33px;
       font-weight:100;
@@ -183,24 +183,27 @@ body {
    
     .lead-services{
       margin: 18px;
-      font-size: 15px;
+      font-size: 17px;
       text-align: center;
       color: #a0a0a0;
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
+      font-family: 'Helvetica Nueu', Helvetica, Arial, sans-serif;
+      font-weight: normal;
 
     }
 
 
     .lead-services-active{
       margin: 18px;
-      font-size: 15px;
+      font-size: 17px;
       font-style: bold;
       text-align: center;
       text-shadow: 1px 1px #f3f3f3;
-      font-family: 'Helvetica Nueu', sans-serif;
-      font-weight: 200;
-      color: #606060;
+      font-family: 'Helvetica Nueu', Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      color: #8090A0;
+      text-shadow: 1px 1px #f3f3f3;
+      font-style: italic;
+      
 
     }
 

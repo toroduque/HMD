@@ -138,9 +138,9 @@ h3{font-size:24.5px;}
 
 h4{
 	font-size:20px;
-	font-family: 'Helvetica Neue', sans-serif;
-	font-weight: 200;
-	margin-bottom: 20px;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: bold;
+	margin-bottom: 25px;
 }
 
 h5{
@@ -160,7 +160,9 @@ h4 small{font-size:14px;}
 .page-header{padding-bottom:9px;margin:20px 0 30px;border-bottom:1px solid #eeeeee;}
 ul,ol{padding:0;margin:0 0 10px 25px;}
 ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}
-li{line-height:20px;}
+li{line-height:20px;
+	margin: 5px 0;
+}
 ul.unstyled,ol.unstyled{margin-left:0;list-style:none;}
 ul.inline,ol.inline{margin-left:0;list-style:none;}ul.inline>li,ol.inline>li{display:inline-block;*display:inline;*zoom:1;padding-left:5px;padding-right:5px;}
 dl{margin-bottom:20px;}
