@@ -121,7 +121,6 @@ body {
     }
 
     li+p{
-      line-height: 16px;
       margin: none;
     }
 
@@ -267,6 +266,10 @@ body {
       margin-top:20px;
       margin-left:125px;
       box-shadow: 5px 5px 10px #e4e4e4;
+    }
+
+    .service-section{
+
     }
 
 
