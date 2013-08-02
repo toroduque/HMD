@@ -130,7 +130,7 @@ body {
       font-size:30px;
       font-weight:100;
       line-height:30px;
-      color: #a1a1a1;
+      color: #707070;
     }
 
     .lead-mute {
@@ -158,15 +158,15 @@ body {
 
     .lead-medium {
       margin-bottom:20px;
-      font-size:16px;
+      font-size:17px;
       font-weight:200;
       line-height:30px;
     }
 
     .lead-navbar {
-      margin-top:2px;
-      margin-bottom: auto 0px;
-      font-size:15px;
+      margin-top:4px;
+      margin-bottom: 0;
+      font-size:17px;
       font-weight:200;
     }
 
