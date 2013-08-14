@@ -100,7 +100,7 @@ $(function() {
 
 function change_content(service_show){
   for( var i = 1; i <= 5; i=i+1 ){
-    $("#hmd-services" + i).fadeOut(300,"swing");
+    $("#hmd-services" + i).fadeOut(200,"swing");
   }
   $("#hmd-services" + service_show).fadeIn(450,"swing");
 }
