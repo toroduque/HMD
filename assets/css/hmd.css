@@ -306,6 +306,11 @@ body {
       display: none;
     }
 
+    #navbar-servicios{
+      margin-left: 135px; 
+      padding-top: 20px;
+    }
+
  /* --------- RESPONSIVE BEGINS HERE ------------- */
 
 @media (max-width: 767px) {
@@ -352,14 +357,16 @@ body {
         }
 
         .lead-services{
-          font-size: 95%;
+          font-size: 90%;
           line-height: 1;
+          margin-top: 10%;
         }
 
 
         .lead-services-active{
-          font-size: 95%;
+          font-size: 90%;
           line-height: 1;
+          margin-top: 10%;
         }
 
        .btn-service{
@@ -387,6 +394,10 @@ body {
           display: none;
         }
 
+        #navbar-servicios{
+          margin: 0 auto;
+        }
+
         #main-logo-responsive{
           display: inline-block;
           margin-top: 15px; 
@@ -402,6 +413,52 @@ body {
           display: block;
           margin: 0 auto;
         }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+  *{
+          margin: 0 auto;
+        }
+
+
+        .navbar{
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          width: 100%;
+        }
+
+        .lead-navbar{
+          font-size: 100%;
+        }
+
+        .lead-services{
+          font-size: 90%;
+          line-height: 1;
+          margin-top: 10%;
+        }
+
+
+        .lead-services-active{
+          font-size: 90%;
+          line-height: 1;
+          margin-top: 10%;
+        }
+
+       .btn-service{
+          height: 100%;
+          width: 24.3%;
+          max-height: 45px;
+          margin-bottom: 5px;
+
+        }
+
+        #navbar-servicios{
+          margin: 0 auto;
+        }
+
 }
   
 
