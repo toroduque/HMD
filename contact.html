@@ -1,7 +1,7 @@
 <html lang="en"><head>
-	<meta charset="UTF-8">
-	<title>HMD Juntos Haciendo Ciencia - Aplicativos web para investigaci&oacute;n cl&iacute;nica</title>
-	
+  <meta charset="UTF-8">
+  <title>HMD Juntos Haciendo Ciencia - Aplicativos web para investigaci&oacute;n cl&iacute;nica</title>
+  
 
   <!-- Bootstrap -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -92,7 +92,7 @@
           <!-- COLUMNA 1 - FORM ESCRIBENOS-->
 
         <div class="row-fluid">
-          <div id="responsive-form" class="offset1 span5">
+          <div class="offset1 span5">
 
             <div class="row">
               <div class="span6" >
@@ -102,26 +102,47 @@
             <br>
             <div class="row">
               <div class="span6" >
-                <input type="text" id="inputEmail" placeholder="Nombre Completo" style="width: 300px; height: 30px; margin-bottom:15px;">
+                <input type="text" id="emailsendername" placeholder="Nombre Completo" style="width: 300px; height: 30px; margin-bottom:15px;">
               </div>
             </div>
             <div class="row">
               <div class="span6" >
-                <input type="email" placeholder="Email" style="width: 300px; height: 30px; margin-bottom:15px;">
+                <input type="text" id="sendusemail" placeholder="Email" style="width: 300px; height: 30px; margin-bottom:15px;">
+              </div>
+            </div>
+             <div class="row">
+              <div class="span6" >
+                <input type="text" placeholder="Tel&eacute;fono (Opcional)" 
+                style="width: 300px; height: 30px; margin-bottom:15px;"
+                id="interested_tel">
               </div>
             </div>
             <div class="row">
               <div class="span6" >
-                <input type="tel" placeholder="Tel&eacute;fono (Opcional)" style="width: 300px; height: 30px; margin-bottom:15px;">
+                <textarea class="form-control" 
+                rows="4" 
+                style="width: 300px; margin-bottom:15px;"
+                 id="message" ></textarea>
               </div>
             </div>
             <div class="row">
               <div class="span6" >
-                <textarea class="form-control" rows="4" style="width: 300px; margin-bottom:15px;" ></textarea>
+                <button type="submit" class="btn"  onclick="sendMail(); return false">
+                  Enviar
+                </button>
+                <script>
+                  function sendMail() {
+               var link = "mailto:marketing@healmydisease.com"
+               + "?cc=myCCaddress@example.com"
+                + "&subject= I want info from HMD" 
+                + "&body=" + escape(document.getElementById('emailsendername').value)
+                + " - email:" + escape(document.getElementById('sendusemail').value)
+                + " - phone:" + escape(document.getElementById('interested_tel').value)
+                + " - message: " + escape(document.getElementById('message').value);
+                window.location.href = link;
+                }
+                </script>
               </div>
-            </div>
-            <div class="row">
-              <div class="span6" ><button type="submit" class="btn " >Enviar</button></div>
             </div>
           </div>
 
@@ -138,7 +159,7 @@
 
             <div class="row">
              <div class="span1"> 
-               <img id="hmd-contact" src="assets/img/contact-1.png" alt="Email medicos">
+               <img id="hmd-services1-blue" src="assets/img/contact-1.png" style="width: 80%; margin: 15px 15px 0 0;" alt="Email medicos">
             </div>
             <div span="span4">
              <a href="mailto:marketing@healmydisease.com" target="_blank"> 
@@ -151,7 +172,7 @@
 
             <div class="row">
               <div class="span1"> 
-                <img id="hmd-contact" src="assets/img/contact-2.png" alt="Email medicos">
+                <img id="hmd-services1-blue" src="assets/img/contact-2.png" style="width: 80%; margin: 15px 15px 0 0; " alt="Email medicos">
               </div>
               <div span="span5">
                 <a href="mailto:marketing@healmydisease.com" target="_blank"> 
@@ -165,7 +186,7 @@
 
             <div class="row">
               <div class="span1"> 
-                <img id="hmd-contact" src="assets/img/contact-3.png" alt="Email medicos">
+                <img id="hmd-services1-blue" src="assets/img/contact-3.png" style="width: 80%; margin: 15px 15px 0 0;" alt="Email medicos">
               </div>
               <div span="span5">
                 <a href="mailto:marketing@healmydisease.com" target="_blank"> 
