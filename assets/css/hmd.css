@@ -311,12 +311,18 @@ body {
       padding-top: 20px;
     }
 
+    #hmd-contact{
+      width: 80%;
+      margin: 15px 15px 0 0;
+    }
+
  /* --------- RESPONSIVE BEGINS HERE ------------- */
 
 @media (max-width: 767px) {
 
         *{
           margin: 0 auto;
+          text-align: center;
         }
 
 
@@ -413,6 +419,11 @@ body {
           display: block;
           margin: 0 auto;
         }
+
+        #hmd-contact{
+          width: 20%;
+          margin: 0 auto;
+        }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -458,6 +469,13 @@ body {
         #navbar-servicios{
           margin: 0 auto;
         }
+
+        #hmd-contact{
+          width: 30%;
+          margin: 15px 15px 0 0;
+        }
+
+
 
 }
   
