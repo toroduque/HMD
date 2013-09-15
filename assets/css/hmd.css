@@ -148,13 +148,14 @@ body {
       font-size:30px;
       font-weight:200;
       line-height: 1.3;
+      color: #505050;
     }
 
     .lead-small {
       margin-bottom:20px;
-      font-size:15px;
+      font-size:22px;
       font-weight:200;
-      line-height:30px;
+      color: #505050;
     }
 
     .lead-medium {
@@ -314,6 +315,10 @@ body {
     #hmd-contact{
       width: 80%;
       margin: 15px 15px 0 0;
+    }
+
+    #img-index{
+      margin-left: -35px;
     }
 
  /* --------- RESPONSIVE BEGINS HERE ------------- */
