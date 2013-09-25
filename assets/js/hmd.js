@@ -99,14 +99,14 @@ $(function() {
 */
 
 function change_content(service_show){
-  for( var i = 1; i <= 5; i=i+1 ){
+  for( var i = 1; i <= 6; i=i+1 ){
     $("#hmd-services" + i).fadeOut(200,"swing");
   }
   $("#hmd-services" + service_show).fadeIn(450,"swing");
 }
 
 function nav_animation(id_title){
-  for (var i = 1;  i <= 5; i=i+1 ) {
+  for (var i = 1;  i <= 6; i=i+1 ) {
     $("#hmd-title-" + i).removeClass('btn-service-active').addClass('btn-service');
   }
   $("#hmd-title-" + id_title).removeClass('btn-service').addClass('btn-service-active');
@@ -129,6 +129,7 @@ $(document).ready(function(){
     $("#service-title-3").removeClass('lead-services-active').addClass('lead-services');
     $("#service-title-4").removeClass('lead-services-active').addClass('lead-services');
     $("#service-title-5").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-6").removeClass('lead-services-active').addClass('lead-services');
 
   });
 
@@ -146,6 +147,7 @@ $(document).ready(function(){
     $("#service-title-3").removeClass('lead-services-active').addClass('lead-services');
     $("#service-title-4").removeClass('lead-services-active').addClass('lead-services');
     $("#service-title-5").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-6").removeClass('lead-services-active').addClass('lead-services');
 
   });
 
@@ -161,6 +163,7 @@ $(document).ready(function(){
     $("#service-title-3").removeClass('lead-services').addClass('lead-services-active');
     $("#service-title-4").removeClass('lead-services-active').addClass('lead-services');
     $("#service-title-5").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-6").removeClass('lead-services-active').addClass('lead-services');
   });
 
   $("#hmd-product4").click(function(){
@@ -175,6 +178,7 @@ $(document).ready(function(){
     $("#service-title-3").removeClass('lead-services-active').addClass('lead-services');
     $("#service-title-4").removeClass('lead-services').addClass('lead-services-active');
     $("#service-title-5").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-6").removeClass('lead-services-active').addClass('lead-services');
   });
 
     $("#hmd-product5").click(function(){
@@ -190,6 +194,23 @@ $(document).ready(function(){
     $("#service-title-3").removeClass('lead-services-active').addClass('lead-services');
     $("#service-title-4").removeClass('lead-services-active').addClass('lead-services');
     $("#service-title-5").removeClass('lead-services').addClass('lead-services-active');
+    $("#service-title-6").removeClass('lead-services-active').addClass('lead-services');
+  });
+
+    $("#hmd-product6").click(function(){
+      /* Change content */
+      change_content(6);
+ 
+    /* Navbar animation */
+      nav_animation(6);
+      
+     /* Navbar change fonts */
+    $("#service-title-1").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-2").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-3").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-4").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-5").removeClass('lead-services-active').addClass('lead-services');
+    $("#service-title-6").removeClass('lead-services').addClass('lead-services-active');
   });
 
  
